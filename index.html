@@ -156,6 +156,26 @@
             background: linear-gradient(135deg, #FF69B4 0%, #FFB6C1 100%);
         }
 
+        .wish-card.special {
+            background: linear-gradient(135deg, #FF1493 0%, #FF69B4 100%);
+            color: white;
+            text-align: center;
+            font-size: 1.3em;
+            padding: 35px;
+            box-shadow: 0 10px 30px rgba(255, 20, 147, 0.3);
+            border: 2px solid #FFB6C1;
+            animation: glow 2s ease-in-out infinite;
+        }
+
+        @keyframes glow {
+            0%, 100% {
+                box-shadow: 0 10px 30px rgba(255, 20, 147, 0.3), inset 0 0 20px rgba(255, 105, 180, 0.1);
+            }
+            50% {
+                box-shadow: 0 10px 40px rgba(255, 20, 147, 0.6), inset 0 0 30px rgba(255, 105, 180, 0.2);
+            }
+        }
+
         .footer {
             background: #667eea;
             color: white;
@@ -276,8 +296,8 @@
 
             <div class="wish-card hindi">
                 <span class="emoji">🎂</span> <strong>Happy Birthday Butki! 🎂</strong><br><br>
-                😂 Aaj ka din hamari Butki ka hai<br><br>
-                😂 Cake zyada mat khana... warna height nahi, sirf width badhegi. 🍰<br><br>
+                😂 Aaj ka din Butki ka hai<br><br>
+                😂 Cake zyada mat khaiyo... warna height nahi, sirf width badhegi. 🍰<br><br>
                 😂 Is saal bas ek hi dua hai...<br>
                 Thodi si height aur bahut saari khushiyan mil jaye. 😄<br><br>
                 ❤️ Mazak apni jagah...<br>
@@ -313,6 +333,12 @@
             <div class="wish-card roast">
                 <span class="emoji">⚡</span> <strong>FINAL ROAST:</strong><br>
                 You're not old, you're just retro! And retro is cool! So basically, you're the coolest person here. Sorry I don't make the rules. Well, actually I do, and I made that rule specifically for you. You're welcome! 😎
+            </div>
+
+            <div class="wish-card special">
+                <span class="emoji">✨💖✨</span><br><br>
+                <strong>🎊 Happy Birthday Susheela! 🎊</strong><br><br>
+                <span class="emoji">💫🌟💫</span>
             </div>
         </div>
 
